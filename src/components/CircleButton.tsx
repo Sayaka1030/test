@@ -9,7 +9,7 @@ const CircleButton = (props: Props):JSX.Element => {
     const { children,style } = props
     return (
         <View style={[styles.circleButton, style]}>
-            <Text style={styles.circleButtonLabel}>+</Text>
+            <Text style={styles.circleButtonLabel}>{children}</Text>
         </View>
     )
 }

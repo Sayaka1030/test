@@ -6,7 +6,7 @@ const fontSelection = require('../../assets/fonts/selection.json')
 const CustomIcon = createIconSetFromIcoMoon(
     fontSelection,
     'icomoon',
-    'icomoon.ttf'
+    'icomoon.ttf',
 )
 
 interface Props {
